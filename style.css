@@ -6,10 +6,11 @@
 
 header
 {
-    background-image: url(pic1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(pic2.jpg);
     height: 100vh;
+    backface-visibility: inherit;
     background-size: cover;
-    background-position: center
+    background-position: center;
 
 }
 .main_nav
@@ -27,7 +28,72 @@ header
 {
     color: white;
     text-decoration: none;
-    padding: 5px 20px;
+    padding: 10px 20px;
     font-family: "Roboto", sans-serif;
     font-size: 15px;
 }
+
+.main-nav li.active a 
+{
+    border: 1px solid white;
+}
+
+.main-nav li a:hover
+{
+    border: 1px solid white;
+}
+
+body
+{
+    font-family: monospace;
+}
+
+.row
+{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.hero
+{
+    position: absolute;
+    width: 1500px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+h1
+{
+    color: white;
+    text-transform: inherit;
+    font-size: 80px;
+    font-family: fantasy;
+    text-align: center;
+    margin-top: 275px;
+}
+
+.button
+{
+    margin-top: 30px;
+    margin-left: 580px;
+}
+
+.btn
+{
+    border: 1px solid white;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    margin-right: 5px;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.btn-one
+{
+    background-color: darkorange;
+    font-family: "Roboto", sans-serif;
+}
+
+
+
